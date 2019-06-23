@@ -2,10 +2,9 @@
 ## A Robust and Versatile Monocular Visual-Inertial State Estimator
 
 ##Change log
-1.add the pose estimated by PnP
-2.add the initial value by reprojection error
-3.add the outlier remove
-4.add the pose correction based on the biased map estimation in IROS2018
+1.添加PnP的位姿估计
+
+4.根据地图点的有偏估计对位姿估计的结果进行了矫正
 
 **11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
 
